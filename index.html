@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective - Saliq Gowhar</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="detective.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <p id="devdetect">DevDetective</p>
+            <div class="screenColor" id="sColor">
+                <div id="currentMode">DARK</div>
+                <img src ="moon-icon.svg" id="moon">
+                <img src ="sun-icon.svg" id="sun">
+            </div>
+        </div>
+
+        <div class="userInput" id="haha">
+            <div class="searchbar">
+                <img src="magnifying-glass.png" width="28" height="28">
+                <input type="search" name="user-input" id="input" placeholder="Enter a GitHub username..." required="">
+            </div>
+            
+            <div class="btn" id="btn">Search</div>
+        </div>
+
+        <div class="infoSection">
+            <!-- up -->
+            <div class="upside">
+                <img src="detective.png" id="photo">
+                <div class="personInfo">
+                    <div class="topInfo">
+                        <p id="person-name">Saliq Gowhar</p>
+                        <p id="date">Joined 03 Sep 2023</p>
+                    </div>
+                    <p id="bio">Pre-Final Year at NITK</p>
+                </div>
+            </div>
+            
+
+            <!-- down -->
+            <div class="downside">
+                <div class="accountInfo">
+                    <div class="repo">
+                        <p class="tt1">Repos</p>
+                        <p id="num1">15</p>
+                    </div>
+
+                    <div class="repo">
+                        <p id="tt2">Followers</p>
+                        <p id="num2">10</p>
+                    </div>
+
+                    <div class="repo">
+                        <p id="tt3">Following</p>
+                        <p id="num3">10</p>
+                    </div>
+                </div>
+
+                <div class="extraInfo">
+                    <div class="upperLine line">
+                        <div id="first " class="each">
+                            <img src=location-icon.svg>
+                            <p id="loc" class="inf">Kashmir</p>
+                        </div>
+
+                        <div id="second" class="each">
+                            <img src="website-icon.svg">
+                            <a href= "https://www.linkedin.com/in/saliq7" target="_blank" id="linkedin" class="inf">Linkedin</a>
+                        </div>
+                    </div>
+
+                    <div class="bottomLine line">
+                        <div id="third" class="each">
+                            <img src="twitter-icon.svg">
+                            <div id="twitter" class="inf">_paradigmshift7</div>
+                        </div>
+                        
+
+                        <div id="fourth" class="each">
+                            <img src ="company-icon.svg" class="inf">
+                            <p id="linkpage">Not Available</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
